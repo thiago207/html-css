@@ -1,0 +1,30 @@
+body{
+ background-color: rgba(109, 218, 0, 0.315);
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+color:rgb(61, 121, 1) ;
+}
+
+
+#principal{
+background-color: rgb(159, 207, 159);
+text-shadow: rgba(0, 0, 0, 0.534) 5px 5px 5px;
+     text-align: center;
+     font-style:italic;
+}
+
+h2{
+color:rgb(43, 85, 1) ;
+}
+.basico{
+    color: chocolate;
+}
+.intermediario{
+    color: brown;
+}
+.avancado{
+    color: blueviolet;
+}
