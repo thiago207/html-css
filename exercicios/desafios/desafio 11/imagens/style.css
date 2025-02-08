@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(211, 211, 211);
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+header h1{
+    font-variant: small-caps;
+}
+header p{
+    padding-bottom: 50px;
+}
+header a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.imagem p{
+    background-color: black;
+    width: 350px;
+    
+}
+
+.normal{
+    color: black;
+    background-color: white;
+}
+.imagem{
+    color: white;
+    background-color: rgba(63, 63, 63, 0.774);
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
