@@ -1,3 +1,13 @@
+@font-face {
+    font-family:passion;
+    src: url(PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family:sri;
+    src: url(Sriracha-Regular.ttf);
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,15 +16,19 @@
 body{
     min-height: 100vh;
     background-color: rgb(211, 211, 211);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     background-color: black;
     color: white;
     padding-top: 50px;
     text-align: center;
+    
 }
 header h1{
     font-variant: small-caps;
+    font-family:passion;
+    font-size: 3em;
 }
 header p{
     padding-bottom: 50px;
@@ -33,12 +47,10 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family:sri;
+    font-size: 1.7em;
 }
-.imagem p{
-    background-color: black;
-    width: 350px;
-    
-}
+
 
 .normal{
     color: black;
@@ -47,6 +59,12 @@ section{
 .imagem{
     color: white;
     background-color: rgba(63, 63, 63, 0.774);
+}
+.imagem p{
+    background-color: rgba(36, 36, 36, 0.514);
+    padding: 10px;
+    display: inline-block;
+    
 }
 
 
