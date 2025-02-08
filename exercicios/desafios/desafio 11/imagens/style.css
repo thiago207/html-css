@@ -48,7 +48,10 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family:sri;
-    font-size: 1.7em;
+    font-size: 1.5em;
+}
+section p{
+    padding-bottom: 2em;
 }
 
 
@@ -59,12 +62,26 @@ section{
 .imagem{
     color: white;
     background-color: rgba(63, 63, 63, 0.774);
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.685);
+    background-attachment: fixed;
 }
 .imagem p{
-    background-color: rgba(36, 36, 36, 0.514);
+    background-color: rgba(15, 15, 15, 0.623);
     padding: 10px;
     display: inline-block;
+    box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.699);
     
+} 
+.imagem#img01 {
+background-image: url(imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+
+.imagem#img02 {
+background-image: url(imagens/background002.jpg);
+background-position: right center;
+background-size: cover;
 }
 
 
