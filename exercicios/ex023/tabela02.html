@@ -12,8 +12,8 @@ body{
 table{
     border-collapse: collapse;
     width: 400px;
-    
     background-color: white;
+    position: relative;
 }
 th, td, tr{
     border: 1px solid black;
@@ -26,6 +26,22 @@ thead, tfoot{
 }
 .numero{
     text-align: right;
+    width: 90px;
+}
+caption{
+    background-color: rgba(41, 40, 40, 0.644);
+    color: wheat;
+    padding: 10px;
+    font-size: 1.5em;
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(192, 192, 192);
+
+}
+thead  tr  th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(54, 54, 54); 
 }
 
 
@@ -34,11 +50,12 @@ thead, tfoot{
 </head>
 <body>
     <h1>uso de tabelas grandes</h1>
-    <table>
+<table>
+        <caption>Tabela das Unidadees Federativas</caption>
     <thead>
         <tr>
-            
-            <th>Unidade <br> Federativa
+           
+            <th scope="col">Unidade <br> Federativa
             </th>
             <th>
                 Populaçao
@@ -48,6 +65,7 @@ thead, tfoot{
 
     <tbody>
         <tr>
+           
             <td>São Paulo</td>
             <td class="numero">41 262 199</td>
         </tr>
@@ -160,13 +178,13 @@ thead, tfoot{
     </tbody>
 
     <tfoot>
-         <th>Total De Habitantes</th>
+         <th scope="row">Total De Habitantes</th>
          <td><strong>212 583 720</strong></td>
     </tfoot>
 
 
 
 
-    </table>
+</table>
 </body>
 </html>
