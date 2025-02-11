@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: cabeca;
+    src: url(VarsityTeam-Bold.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+main{
+  
+}
+div{
+    display: flex;
+    align-items: center;
+    
+    color: rgb(0, 0, 0);
+}
+div img{
+    width: 80px;
+}
+div h1{
+    font-family: cabeca;
+    font-size: 40px;
+    
+}
+div h1 p{
+    font-size: 20px;
+    text-align: center;
+    font-family: cabeca;
+    
+}
+nav{
+    margin-right: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+#a{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: inline-block;
+    margin-right: 40px;
+}
+#b{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: inline-block;
+    margin-right: 40px;
+
+}
+#c{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: inline-block;
+
+}
+.ab{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+.bc{
+    border: 1px solid orangered;
+    width: 80px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: orangered;
+    display: inline-block;
+}
