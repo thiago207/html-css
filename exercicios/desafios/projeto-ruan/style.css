@@ -3,34 +3,57 @@
     font-family: cabeca;
     src: url(VarsityTeam-Bold.otf);
 }
+@font-face {
+    font-family: lemo;
+    src: url(LEMONMILK-Light.otf);
+}
 *{
     padding: 0px;
     margin: 0px;
 }
 
+.cima img{
+    width: 450px;
+    max-height: 300px;
+    margin: auto;
+   
+}
 
-
+body{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);
+}
 main{
-  
+  width: 390px;
+  margin: auto;
+  background-color: rgba(51, 51, 51, 0.801);
+  border-radius: 15px;
+  box-shadow: 7px 7px 5px black;
+
+
 }
 div{
     display: flex;
     align-items: center;
     
-    color: rgb(0, 0, 0);
+    
 }
 div img{
     width: 80px;
+    margin-left: px;
 }
 div h1{
     font-family: cabeca;
     font-size: 40px;
+    color: rgba(253, 80, 0, 0.842);
     
 }
 div h1 p{
     font-size: 20px;
     text-align: center;
     font-family: cabeca;
+    margin-bottom: 30px;
+    
     
 }
 nav{
@@ -46,6 +69,7 @@ nav{
     background-color: orangered;
     display: inline-block;
     margin-right: 40px;
+    margin-left: 15px;
 }
 #b{
     border: 1px solid orangered;
@@ -66,6 +90,9 @@ nav{
     display: inline-block;
 
 }
+aside{
+    padding-top: 20px;
+}
 .ab{
     border: 1px solid orangered;
     width: 80px;
@@ -73,8 +100,9 @@ nav{
     border-radius: 10px;
     background-color: orangered;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 75px;
     margin-right: 60px;
+    padding: 2px;
 }
 .bc{
     border: 1px solid orangered;
@@ -83,4 +111,15 @@ nav{
     border-radius: 10px;
     background-color: orangered;
     display: inline-block;
+}
+h3{
+    font-family: lemo;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#a:hover{
+    box-shadow: 3px 2px 2px black;
+    transition: .5s;
+   
 }
