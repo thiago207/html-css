@@ -70,6 +70,7 @@ nav{
     display: inline-block;
     margin-right: 40px;
     margin-left: 15px;
+    box-shadow:  3px 2px 2px black;
 }
 #b{
     border: 1px solid orangered;
@@ -79,6 +80,7 @@ nav{
     background-color: orangered;
     display: inline-block;
     margin-right: 40px;
+    box-shadow:  3px 2px 2px black;
 
 }
 #c{
@@ -88,6 +90,7 @@ nav{
     border-radius: 10px;
     background-color: orangered;
     display: inline-block;
+    box-shadow: 3px 2px 2px black ;
 
 }
 aside{
@@ -103,6 +106,7 @@ aside{
     margin-left: 75px;
     margin-right: 60px;
     padding: 2px;
+    box-shadow:  3px 2px 2px black;
 }
 .bc{
     border: 1px solid orangered;
@@ -110,16 +114,13 @@ aside{
     height: 90px;
     border-radius: 10px;
     background-color: orangered;
-    display: inline-block;
+    box-shadow:  3px 2px 2px black;
+    display: inline-block
+    
 }
 h3{
     font-family: lemo;
     margin-top: 30px;
     text-align: center;
     padding-bottom: 20px;
-}
-#a:hover{
-    box-shadow: 3px 2px 2px black;
-    transition: .5s;
-   
 }
