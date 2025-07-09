@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juma - Moda Íntima</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #c2185b;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+    }
+    nav {
+      background-color: #f8bbd0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #880e4f;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #c2185b;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1618354691215-c8f3c7cb6fcf') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #880e4f;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product p {
+      padding: 15px;
+      font-weight: bold;
+      color: #d81b60;
+    }
+    .sobre p, .contato p {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+    footer {
+      background-color: #c2185b;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Juma</h1>
+    <p>Moda íntima que realça sua beleza e confiança</p>
+  </header>
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <section class="hero">
+    <h2>Descubra o poder da sua beleza com Juma</h2>
+    <p>Elegância, conforto e sensualidade em cada detalhe</p>
+  </section>
+  <section id="produtos" class="section">
+    <h2>Nossos Produtos</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1600180758890-8495f5a2f2dd" alt="Conjunto de lingerie">
+        <p>Conjunto de Renda - R$ 89,90</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1590080875764-77a4b21fdb4b" alt="Sutiã confortável">
+        <p>Sutiã Conforto - R$ 59,90</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1589308078056-bd94e328d30d" alt="Calcinha sensual">
+        <p>Calcinha Sensual - R$ 29,90</p>
+      </div>
+    </div>
+  </section>
+  <section id="sobre" class="section sobre">
+    <h2>Sobre a Juma</h2>
+    <p>Na Juma, acreditamos que a lingerie vai além da peça: é uma expressão de autoestima. Fundada com a missão de empoderar mulheres, oferecemos roupas íntimas que combinam conforto, beleza e qualidade.</p>
+  </section>
+  <section id="contato" class="section contato">
+    <h2>Fale Conosco</h2>
+    <p>Email: contato@juma.com.br</p>
+    <p>Instagram: <a href="https://instagram.com/jumalingerie" target="_blank">@jumalingerie</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Juma. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
